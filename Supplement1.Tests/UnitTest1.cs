@@ -23,5 +23,11 @@ public void ShouldCalculateArea0fRectangleWithSameLengthAndWidth()
             Assert.True(Math.PI == supplement1.AreaOfCircle(1.0));
         }
 
+          [Fact]
+        public void ShouldCalculateAreaOfATriangle()
+        {
+            Assert.True(100.0 == supplement1.AreaOfTriangle(50.0,4));
+        }
+
   
 }
