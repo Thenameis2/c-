@@ -17,10 +17,11 @@ public void ShouldCalculateArea0fRectangleWithSameLengthAndWidth()
   
   }
 
-  public void ShouldCalculateArea0fUnitCircle()
-  {
+   [Fact]
+        public void ShouldCalculateAreaOfUnitCircle()
+        {
+            Assert.True(Math.PI == supplement1.AreaOfCircle(1.0));
+        }
 
-  Assert.True(double.Pi == supplement1.AreaOfCircle(1.0));
   
-  }
 }

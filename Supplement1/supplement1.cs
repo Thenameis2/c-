@@ -1,4 +1,4 @@
-namespace Supplement1;
+﻿namespace Supplement1;
 
 public class supplement1 
 {
@@ -19,7 +19,7 @@ public class supplement1
        
     }
     public static double AreaOfCircle(double radius) {
-        throw new NotImplementedException();
+       return double.Pow(radius,2.0)* double.Pi;
     }
     
     public static double AreaOfTriangle(double triangleBase, double triangleHeight){
