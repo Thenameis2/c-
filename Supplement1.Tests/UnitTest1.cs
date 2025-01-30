@@ -8,4 +8,12 @@ public void ShouldCalculateAreaOfRectangleWithDifferentLengthAndWidth()
 {
     Assert.True(50.0 == supplement1.AreaOfRectangle(5.0, 10.0));
 }
+
+    [Fact]
+public void ShouldCalculateArea0fRectangleWithSameLengthAndWidth()
+  {
+
+  Assert.True(25.0 == supplement1.AreaOfRectangle(5.0, 5.0));
+  
+  }
 }
