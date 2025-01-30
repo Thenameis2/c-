@@ -7,7 +7,7 @@ public class supplement1
     }
     public static double AreaOfCircle(double radius) {
         throw new NotImplementedException();
-    }.
+    }
     
     public static double AreaOfTriangle(double triangleBase, double triangleHeight){
         
